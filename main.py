@@ -14,7 +14,12 @@ print("")
 # a.	Write code that takes a string as input and capitalize the first letter of each word. Words will be separated by only one space. i.e. “hello world” should be outputted as “Hello World”
 string = "this string will capitalize the first letter in each word!"
 capitalized_string = string.title()
+
+user_input = input("Type anything you'd like: ")
+capitalize_user_input = user_input.title()
+
 print(capitalized_string)
+print(capitalize_user_input)
 
 print("")
 # 3.	Compress a string of characters
