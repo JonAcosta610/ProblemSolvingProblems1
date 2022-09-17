@@ -42,7 +42,14 @@ def compress(string):
 string = "bookkeeping"
 print(compress(string))
 
+print("")
 # 4.	BONUS CHALLENGE: Palindrome
 # a.	A word, phrase, or sequence that reads the same backward as forward i.e. madam
 # b.	Write code that takes a user input and checks to see if it is a Palindrome and reports the result
-# def palindrome(string):
+def palindrome(string):
+    if string == string[::-1]:
+        print(True)
+    else:
+         print(False)
+palindrome("spacecaps")
+palindrome("Wednesday")
